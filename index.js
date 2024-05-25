@@ -67,7 +67,7 @@ function handleSubmit(e) {
     }
     const response = confirm("Are you sure you want to submit this form?")
     if (response) {
-        alert("Successful signup!")
+        alert(`Successful signup! Welcome ${email.value}!`)
     }
     // reset to initial state of the form
     email.value = ""
